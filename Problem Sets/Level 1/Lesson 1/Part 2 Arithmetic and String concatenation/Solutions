@@ -75,16 +75,16 @@ Output:
 -4
 
 Notes:
-On line 58 addition goes from left to right, so "1 + 1 = " + 1 + 1 is "1 + 1 = 1" + 1, which is "1 + 1 = 11"
-On line 59, the expression in parentheses is computed first.
-On lines 61 and 62, * and / come before + in the order of operations.
-Line 63 is computed the following way:
+On line 60 addition goes from left to right, so "1 + 1 = " + 1 + 1 is "1 + 1 = 1" + 1, which is "1 + 1 = 11"
+On line 61, the expression in parentheses is computed first.
+On lines 63 and 64, * and / come before + in the order of operations.
+Line 65 is computed the following way:
 1 + 1 + " = 1 + 1 = " + 1 + 1
 2 + " = 1 + 1 = " + 1 + 1
 "2 = 1 + 1 = " + 1 + 1
 "2 = 1 + 1 = 1" + 1
 "2 = 1 + 1 = 11"
-On line 64, * and % have the same priority (above + and -). Therefore,
+On line 66, * and % have the same priority (above + and -). Therefore,
 1 + 2 * 5 % 3 - 6 = 1 + 10 % 3 - 6 = 1 + 1 - 6 = 2 - 6 = -4.
 
 
